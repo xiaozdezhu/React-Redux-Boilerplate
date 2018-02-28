@@ -14,7 +14,7 @@ const store = createStore(
     allReducers,
     applyMiddleware(thunk, promise, logger)
 );
-
+// for branch test
 ReactDOM.render(
     <Provider store={store}>
         <App />
